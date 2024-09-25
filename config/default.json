@@ -1,0 +1,10 @@
+{
+  "name": "skillup",
+  "username": "root",
+  "password": "root",
+  "database": "skillup",
+  "host": "localhost",
+  "dialect": "mysql",
+  "port": "3306"
+
+}
