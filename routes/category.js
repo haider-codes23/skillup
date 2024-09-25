@@ -2,7 +2,7 @@ const express = require('express');
 const Category = require('../models/category');
 const {body, checkSchema, validationResult} = require('express-validator');
 const categoryValidationScehma = require('../express-validation-schemas/categoriesValidationSchema');
-const {adminAuthorization} = require('../middleware/authenticate');
+const {adminAuthorization} = require('../middleware/authorization');
 
 const router = express();
 

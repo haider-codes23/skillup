@@ -3,7 +3,7 @@ const User = require("../models/user");
 const bcrypt = require('bcrypt');
 const {body, checkSchema, validationResult} = require('express-validator');
 const userValidationScehma = require('../express-validation-schemas/userValidationSchema')
-const authorization = require('../middleware/authenticate');
+const authorization = require('../middleware/authorization');
 
 const router = express();
 
