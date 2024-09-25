@@ -1,0 +1,31 @@
+{
+  "name": "skillup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haider-codes23/skillup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haider-codes23/skillup/issues"
+  },
+  "homepage": "https://github.com/haider-codes23/skillup#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "config": "^3.3.12",
+    "connect-session-sequelize": "^7.1.7",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3"
+  }
+}
