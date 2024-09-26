@@ -86,4 +86,3 @@ connect-session-sequelize: Offers a seamless way to manage session data within a
 
 
 
-This structured approach now includes your authorization middleware, highlighting your attention to security and user management in the project.
